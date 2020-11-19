@@ -29,7 +29,13 @@
         }
         const n = d["grade" + i];
         if (n > 0) {
-          list.push(d);
+          const d2 = {};
+          Object.assign(d2, d);
+          d2.credit = n;
+          for (let j = 1; j <= 5; j++) {
+            delete d2["grade" + j];
+          }
+          list.push(d2);
         }
       }
       const tbl = CSV.makeTable(CSV.fromJSON(list));
