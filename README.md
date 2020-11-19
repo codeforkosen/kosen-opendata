@@ -18,3 +18,5 @@ https://codeforkosen.github.io/kosen-opendata/fukui-all.html
 こちらが福井高専電子情報工学科の例です  
 https://github.com/codeforkosen/kosen-opendata/tree/main/data/fukui  
 
+参考、高専機構Webシラバス  
+https://syllabus.kosen-k.go.jp/Pages/PublicSchools?lang=ja  
