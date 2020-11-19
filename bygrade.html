@@ -35,6 +35,8 @@
           for (let j = 1; j <= 5; j++) {
             delete d2["grade" + j];
           }
+          delete d2.notes;
+          d2.notes = d.notes;
           list.push(d2);
         }
       }
