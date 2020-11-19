@@ -15,7 +15,7 @@
   import { CSV } from "https://code4sabae.github.io/js/CSV.js";
   
   window.onload = async () => {
-    const url = "./data/fukui-kosen.csv";
+    const url = "./data/fukui/fukui-kosen-subject.csv";
     const csv = await CSV.fetch(url);
     const tbl = CSV.makeTable(csv);
     main.appendChild(tbl);
@@ -27,7 +27,7 @@
   <div id=main></div>
 
   <hr>
-  オープンデータ: <a href=./data/fukui-kosen.csv>fukui-kosen.csv</a>
+  オープンデータ: <a href=./data/fukui/fukui-kosen-subject.csv>fukui-kosen-subject.csv</a>
   
 </body>
 </html>
