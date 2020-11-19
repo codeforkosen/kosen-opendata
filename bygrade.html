@@ -1,0 +1,53 @@
+<!DOCTYPE html><html><head><meta charaset="utf-8">
+  <title>高専オープンデータ</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid gray;
+      padding: 0em .5em;
+    }
+    </style>
+</head>
+<body>
+  <script type="module">
+  import { CSV } from "https://code4sabae.github.io/js/CSV.js";
+  
+  window.onload = async () => {
+    const url = "./fukui-kosen.csv";
+    const csv = await CSV.fetch(url);
+    const data = CSV.toJSON(csv);
+    console.log(data);
+
+    const p = main;
+    for (let i = 1; i <= 5; i++) {
+      const list = [];
+      for (const d of data) {
+        if (d.departement === "特設科目") {
+          continue;
+        }
+        const n = d["grade" + i];
+        if (n > 0) {
+          list.push(d);
+        }
+      }
+      const tbl = CSV.makeTable(CSV.fromJSON(list));
+      const h2 = document.createElement("h2");
+      h2.textContent = i + "年生";
+      p.appendChild(h2);
+      p.appendChild(tbl);
+    }
+  };
+  </script>
+  <h1>福井高専 カリキュラム（電子情報工学科）</h1>
+
+  <a href=index.html>全件表示</a><br><br>
+
+  <div id=main></div>
+
+  <hr>
+  オープンデータ: <a href=./fukui-kosen.csv>fukui-kosen.csv</a>
+
+</body>
+</html>
