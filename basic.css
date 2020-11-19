@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+a {
+  color: black;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: rgb(58, 114, 133);
+}

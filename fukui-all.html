@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charaset="utf-8"><meta name="viewport" content="width=device-width">
+  <title>福井高専カリキュラム - 高専オープンデータ</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image"  content="https://codeforkosen.github.io/kosen-opendata/ogp.png">
+  <meta name="twitter:image" content="https://codeforkosen.github.io/kosen-opendata/ogp.png">
+</head>
+<body>
+  <script type="module">
+  import { CSV } from "https://code4sabae.github.io/js/CSV.js";
+  import { toJA } from "./toJA.js";
+
+  window.onload = async () => {
+    const url = "./data/fukui/fukui-kosen-subject.csv";
+    const csv = await CSV.fetch(url);
+    const tbl = CSV.makeTable(toJA(csv));
+    main.appendChild(tbl);
+  };
+  </script>
+
+  <h1>福井高専カリキュラム</h1>
+  <ul id="menu">
+    <li><a href=fukui-all.html>電子情報工学科 科目別</a></li>
+    <li><a href=fukui-bygrade.html>学年別</a></li>
+  </ul>
+  <div id=main></div>
+
+  <hr>
+  Data: 福井高専オープンデータ（非公式） <a href=./data/fukui/fukui-kosen-subject.csv>fukui-kosen-subject.csv</a>
+  App: <a href=https://fukuno.jig.jp/3039>福野泰介の一日一創</a> (<a href=https://github.com/codeforkosen/kosen-opendata/>src on GitHub</a>)<br>
+  
+</body>
+</html>

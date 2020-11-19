@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+table {
+  border-collapse: collapse;
+  min-width: 90%;
+}
+td, th {
+  x-border: 1px solid gray;
+  padding: 0.1em .5em;
+  white-space: nowrap;
+  text-align: left;
+}
+th {
+  padding: .5em .5em;
+  background-color: rgb(96, 196, 230);
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+#main {
+  overflow: scroll;
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin-bottom: .5em;
+}
+li {
+  padding: .5em 2em;
+  text-align: center;
+  background-color: #f8f8f8;
+  float: left;
+}
+li a {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: rgb(58, 114, 133);
+}
