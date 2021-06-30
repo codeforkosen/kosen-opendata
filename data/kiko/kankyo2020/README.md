@@ -4,15 +4,15 @@ https://www.kosen-k.go.jp/about/release/disclosure11.html
 
 ## 各高専の保有面積の校舎小計・寄宿舎小計
 
-kankyo2020_facilityarea.csv
+[kankyo2020_facilityarea.csv](kankyo2020_facilityarea.csv)
 
 ## 電気、化石燃料、新エネルギーの使用量の校舎小計・寄宿舎小計
 
-kankyo2020_energyinput.csv
+[kankyo2020_energyinput.csv](kankyo2020_energyinput.csv)
 
 ## 電気、化石燃料各由来による温室効果ガスの校舎小計・寄宿舎小計
 
-kankyo2020_co2.csv
+[kankyo2020_co2.csv](kankyo2020_co2.csv)
 
 ## 利用規約
 
