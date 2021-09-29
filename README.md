@@ -1,11 +1,15 @@
 # 高専オープンデータ
 
 - 高専に関わるオープンデータを公式、非公式問わず集めています
-- 高専オープンデータを使ったサンプルアプリはこちら → [高専Apps](https://github.com/codeforkosen/kosen-apps/)
+- 高専オープンデータを使ったアプリはこちら → [高専Apps](https://github.com/codeforkosen/kosen-apps/)
 
 ## 高専環境報告書オープンデータ(公式)
 
+- [各高専の保有面積の校舎小計・寄宿舎小計](https://codeforkosen.github.io/kosen-opendata/data/kiko/kankyo2020/kankyo2020_facilityarea.csv)
+- [電気、化石燃料、新エネルギーの使用量の校舎小計・寄宿舎小計](https://codeforkosen.github.io/kosen-opendata/data/kiko/kankyo2020/kankyo2020_energyinput.csv)
+- [電気、化石燃料各由来による温室効果ガスの校舎小計・寄宿舎小計](https://codeforkosen.github.io/kosen-opendata/data/kiko/kankyo2020/kankyo2020_co2.csv)
 - [GitHub](https://github.com/codeforkosen/kosen-opendata/tree/main/data/kiko/kankyo2020)
+- [BigQuery一般公開データセット](https://console.cloud.google.com/bigquery?project=kosen-opendata&ws=&p=kosen-opendata&d=kankyo2020&page=dataset)
 
 ## 高専キャンパスオープンデータ(非公式)
 
