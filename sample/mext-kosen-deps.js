@@ -34,7 +34,7 @@ const main = async (parent) => {
       datasets,
     },
     options: {
-      title: { display: true, text: "高専の学級数変遷" },
+      title: { display: true, text: "高専学科別学級数変遷" },
       scales: {
         xAxes: [{ scaleLabel: { display: false, labelString: "年度" } }],
         yAxes: [
