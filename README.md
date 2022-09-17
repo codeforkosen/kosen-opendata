@@ -19,7 +19,10 @@
 
 - [高専キャンパス一覧](https://codeforkosen.github.io/kosen-opendata/sample/campus.html)
 - [CSVオープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.csv)
+- [JSONオープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.json)
+- [CBORオープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.cbor)
 - [GitHub](https://github.com/codeforkosen/kosen-opendata/blob/main/data/kosen_campus.csv)
+- 出展: [文部科学省 学校コード](https://www.mext.go.jp/b_menu/toukei/mext_01087.html)
 
 ## 高専プロコンオープンデータ(非公式)
 
