@@ -17,6 +17,7 @@
 
 ## 高専キャンパスオープンデータ(非公式)
 
+- [高専キャンパス一覧](https://codeforkosen.github.io/kosen-opendata/sample/campus.html)
 - [CSVオープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.csv)
 - [GitHub](https://github.com/codeforkosen/kosen-opendata/blob/main/data/kosen_campus.csv)
 
