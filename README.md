@@ -11,6 +11,10 @@
 - [GitHub](https://github.com/codeforkosen/kosen-opendata/tree/main/data/kiko/kankyo2020)
 - [BigQuery一般公開データセット](https://console.cloud.google.com/bigquery?project=kosen-opendata&ws=&p=kosen-opendata&d=kankyo2020&page=dataset)
 
+## 各高専による公式オープンデータ
+
+- [オープンデータ | 秋田工業高等専門学校 地域連携外部ページ](http://akita-nct.coop-edu.jp/opendata)
+
 ## 高専キャンパスオープンデータ(非公式)
 
 - [CSVオープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.csv)
