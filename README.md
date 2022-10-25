@@ -29,7 +29,7 @@
 ## 高専プロコンオープンデータ(非公式)
 
 - [GitHub](https://github.com/codeforkosen/kosen-opendata/tree/main/data/procon/)
-- [CSV #procon33 2022](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2022.csv) ([Hack U](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2022_hacku.csv))
+- [CSV #procon33 2022](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2022.csv) ([Hack U](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2022_hacku.csv)) (出展、<a href=https://www.procon.gr.jp/>高専プロコン</a> パンフレット原稿より)
 
 ## 高専カリキュラムオープンデータ(非公式)
 
