@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>KOSEN Emblem</title>
+</head><body>
+
+<h1>KOSEN Emblem</h1>
+<main id=main></main>
+
+<script type="module">
+import { CSV } from "https://js.sabae.cc/CSV.js";
+import { shuffle } from "https://js.sabae.cc/shuffle.js";
+
+const data = await CSV.fetchJSON("../data/kosen.csv");
+shuffle(data);
+for (const d of data) {
+  const img = new Image();
+  img.src = d.img_emblem;
+  main.appendChild(img);
+  img.onclick = () => alert(d.name_ja + "\n" + d.name_en);
+}
+</script>
+
+<div><a href=https://github.com/codeforkosen/kosen-opendata/>data and src on GitHub</a></div>
+
+<style>
+body {
+  text-align: center;
+}
+</style>
+
+</body>
+</html>
