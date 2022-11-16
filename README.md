@@ -15,6 +15,12 @@
 
 - [オープンデータ | 秋田工業高等専門学校 地域連携外部ページ](http://akita-nct.coop-edu.jp/opendata)
 
+## 高専オープンデータ(非公式)
+
+- [高専一覧](https://codeforkosen.github.io/kosen-opendata/sample/kosen.html)
+- [KOSEN emblem一覧](https://codeforkosen.github.io/kosen-opendata/sample/kosen_emblem.html)
+- [CSVオープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen.csv)
+
 ## 高専キャンパスオープンデータ(非公式)
 
 - [高専キャンパス一覧](https://codeforkosen.github.io/kosen-opendata/sample/campus.html)
