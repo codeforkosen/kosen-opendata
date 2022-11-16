@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>高専校章カッター</title>
+</head><body>
+
+<h1>高専校章カッター</h1>
+<canvas id=canvas></canvas><br>
+<button id=btn>cut</button>
+
+<script type="module">
+import { waitImageLoad } from "https://js.sabae.cc/waitImageLoad.js";
+import { downloadZip } from "https://code4sabae.github.io/js/downloadZip.js";
+import { Base64 } from "https://code4fukui.github.io/Base64/Base64.js";
+
+export const waitMouseDown = async (c) => new Promise((resolve) => {
+  c.onmousedown = (e) => {
+    //console.log(e);
+    c.onmousedown = undefined;
+    resolve({ x: e.offsetX, y: e.offsetY });
+  };
+});
+export const waitMouseDownOrMove = async (c) => new Promise((resolve) => {
+  c.onmousedown = (e) => {
+    //console.log(e);
+    c.onmousedown = undefined;
+    resolve({ x: e.offsetX, y: e.offsetY, down: true });
+  };
+  c.onmousemove = (e) => {
+    //console.log(e);
+    c.onmousemove = undefined;
+    resolve({ x: e.offsetX, y: e.offsetY, down: false });
+  };
+});
+export const waitMouseDownOrButton = async (c, btn) => new Promise((resolve) => {
+  c.onmousedown = (e) => {
+    //console.log(e);
+    c.onmousedown = undefined;
+    resolve({ x: e.offsetX, y: e.offsetY, button: false });
+  };
+  btn.onclick = (e) => {
+    btn.onclick = undefined;
+    resolve({ button: true });
+  };
+});
+export const encodeJPG = (imgdata) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = imgdata.width;
+  canvas.height = imgdata.height;
+  const g = canvas.getContext("2d");
+  g.putImageData(imgdata, 0, 0);
+  const s = canvas.toDataURL("image/jpeg");
+  return Base64.decode(s.substring(s.indexOf(",") + 1));
+};
+
+const drawLine = (g, x1, y1, x2, y2) => {
+  g.beginPath();
+  g.moveTo(x1, y1);
+  g.lineTo(x2, y2);
+  g.stroke();
+};
+const drawGrid = (g, x, y, w, h, ngw, ngh) => {
+  for (let i = 0; i <= ngh; i++) {
+    const y1 = y + h / ngh * i;
+    for (let j = 0; j <= ngw; j++) {
+      const x1 = x + w / ngw * j;
+      drawLine(g, x, y1, x + w, y1);
+      drawLine(g, x1, y, x1, y + h);
+    }
+  }
+};
+
+const g = canvas.getContext("2d");
+const img = new Image();
+img.src = "../data/school_emblem/school_emblem_2.jpg";
+await waitImageLoad(img);
+const iw = img.width;
+const ih = img.height;
+canvas.width = iw;
+canvas.height = ih;
+const ngw = 5;
+const ngh = 7;
+const draw = (p1, p2) => {
+  g.drawImage(img, 0, 0);
+  if (p1 && p2) {
+    drawGrid(g, p1.x, p1.y, p2.x - p1.x, p2.y - p1.y, ngw, ngh);
+  }
+};
+draw();
+g.color = "black";
+
+let p1 = await waitMouseDown(canvas);
+let p2;
+for (;;) {
+  for (;;) {
+    p2 = await waitMouseDownOrMove(canvas);
+    draw(p1, p2);
+    if (p2.down) {
+      break;
+    }
+  }
+  if ((await waitMouseDownOrButton(canvas, btn)).button) {
+    break;
+  }
+  for (;;) {
+    p1 = await waitMouseDownOrMove(canvas);
+    draw(p1, p2);
+    if (p1.down) {
+      break;
+    }
+  }
+  if ((await waitMouseDownOrButton(canvas, btn)).button) {
+    break;
+  };
+}
+
+draw();
+const files = [];
+const pw = (p2.x - p1.x) / ngw;
+const ph = (p2.y - p1.y) / ngh;
+for (let i = 0; i < ngw; i++) {
+  for (let j = 0; j < ngh; j++) {
+    const x = p1.x + pw * i;
+    const y = p1.y + ph * j;
+    const imgdata = g.getImageData(x, y, pw, ph);
+    const n = i + j * ngw;
+    files.push({ name: n + ".jpg", data: encodeJPG(imgdata) });
+  }
+}
+await downloadZip("pack.zip", files);
+
+</script>
+
+<div><a href=https://github.com/codeforkosen/kosen-opendata/>data and src on GitHub</a></div>
+
+<style>
+body {
+  x-background-color: gray;
+}
+</style>
+
+</body>
+</html>
