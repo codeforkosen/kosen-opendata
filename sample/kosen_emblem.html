@@ -9,13 +9,13 @@
 import { CSV } from "https://js.sabae.cc/CSV.js";
 import { shuffle } from "https://js.sabae.cc/shuffle.js";
 
-const data = await CSV.fetchJSON("../data/kosen.csv");
+const data = await CSV.fetchJSON("../data/kosen_school_emblem.csv");
 shuffle(data);
 for (const d of data) {
   const img = new Image();
   img.src = d.img_emblem;
   main.appendChild(img);
-  img.onclick = () => alert(d.name_ja + "\n" + d.name_en);
+  img.onclick = () => alert(`${d.name_ja}\n${d.name_en}\n\n校章の由来:\n${d.origin_emblem_text}\n出典:${d.origin_emblem_url}`);
 }
 </script>
 
