@@ -20,6 +20,7 @@
 - [高専一覧](https://codeforkosen.github.io/kosen-opendata/sample/kosen.html)
 - [KOSEN emblem 一覧(由来有り)](https://codeforkosen.github.io/kosen-opendata/sample/kosen_emblem.html)
 - [CSV オープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen.csv)
+- [学校コード一覧(高専、大学、短大)](https://codeforkosen.github.io/kosen-opendata/data/mext_scode.csv) - [文部科学省　学校コード：文部科学省](https://www.mext.go.jp/b_menu/toukei/mext_01087.html) [令和5年5月1日時点（暫定版） 大学、短期大学、高等専門学校](https://www.mext.go.jp/content/20230731-mxt_chousa01-000011635_5.xlsx) をCSVに変換
 
 ## 高専キャンパスオープンデータ(非公式)
 
