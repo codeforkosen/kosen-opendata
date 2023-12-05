@@ -50,7 +50,7 @@
 
 - 参考、[高専機構 Web シラバス](https://syllabus.kosen-k.go.jp/Pages/PublicSchools?lang=ja)
 
-## 高専カレンダーオープンデータ（非公式）
+## 高専カレンダーオープンデータ(非公式)
 Googleカレンダーで管理していますので編集してくれる方は[新井](https://github.com/ismail-a)に連絡ください。
 
 - 高専祭（[Web](https://calendar.google.com/calendar/embed?src=749tsh6idmas12dr4n75g8i1p8%40group.calendar.google.com&ctz=Asia%2FTokyo), [iCal](https://calendar.google.com/calendar/ical/749tsh6idmas12dr4n75g8i1p8%40group.calendar.google.com/public/basic.ics)）
