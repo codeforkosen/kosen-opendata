@@ -17,8 +17,9 @@
 
 ## 高専オープンデータ(非公式)
 
-- [高専一覧](https://codeforkosen.github.io/kosen-opendata/sample/kosen.html)
-- [KOSEN emblem 一覧(由来有り)](https://codeforkosen.github.io/kosen-opendata/sample/kosen_emblem.html)
+- [高専一覧](https://codeforkosen.github.io/kosen-opendata/sample/kosen.html)  ※校章画像は各学校の著作物です
+- [KOSEN emblem 一覧(由来有り)](https://codeforkosen.github.io/kosen-opendata/sample/kosen_emblem.html)  ※校章画像は各学校の著作物です
+- [高専かるた](https://codeforkosen.github.io/kosen-apps/karuta.html)
 - [CSV オープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen.csv)
 - [学校コード一覧(高専、大学、短大)](https://codeforkosen.github.io/kosen-opendata/data/mext/scode.csv) - [文部科学省　学校コード：文部科学省](https://www.mext.go.jp/b_menu/toukei/mext_01087.html) [令和5年5月1日時点（暫定版） 大学、短期大学、高等専門学校](https://www.mext.go.jp/content/20230731-mxt_chousa01-000011635_5.xlsx) をCSVに変換
 
@@ -49,7 +50,7 @@
 
 - 参考、[高専機構 Web シラバス](https://syllabus.kosen-k.go.jp/Pages/PublicSchools?lang=ja)
 
-## 高専カレンダーオープンデータ（非公式）
+## 高専カレンダーオープンデータ(非公式)
 Googleカレンダーで管理していますので編集してくれる方は[新井](https://github.com/ismail-a)に連絡ください。
 
 - 高専祭（[Web](https://calendar.google.com/calendar/embed?src=749tsh6idmas12dr4n75g8i1p8%40group.calendar.google.com&ctz=Asia%2FTokyo), [iCal](https://calendar.google.com/calendar/ical/749tsh6idmas12dr4n75g8i1p8%40group.calendar.google.com/public/basic.ics)）
