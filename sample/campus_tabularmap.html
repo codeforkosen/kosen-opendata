@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>高専カラム地図</title>
+</head><body>
+
+<h1>高専カラム地図</h1>
+
+<script type="module" src="https://tabularmaps.github.io/areamap/tabular-map.js"></script>
+<tabular-map id="tmap" src="../data/kosen_campus.tabularmap.tsv"></tabular-map>
+<textarea id="takosen"></textarea>
+
+<script type="module">
+import { CSV } from "https://js.sabae.cc/CSV.js";
+
+const data = await CSV.fetchJSON("../data/kosen_campus.csv");
+
+tmap.onclick = (c) => {
+  const name = c.srcElement.textContent;
+  c.srcElement.classList.toggle("checked");
+  const item = data.find(i => i.shortname2 == name);
+  takosen.value = JSON.stringify(item, null, 2);
+  location.hash = Array.from(c.srcElement.parentElement.childNodes).map(i => i.classList.contains("checked") ? "1" : "0").join("");
+};
+
+const hash = location.hash.substring(1);
+if (hash) {
+  const c = tmap.childNodes[0];
+  hash.split("").forEach((v, idx) => {
+    if (v == "1") c.childNodes[idx].classList.add("checked");
+  });
+};
+
+</script>
+
+<hr>
+DATA: <a href=https://github.com/codeforkosen/kosen-opendata/tree/main/data/kosen_campus.tabularmap.tsv>kosen_campus.tabularmap.tsv</a><br>
+LIB: <a href=https://github.com/tabularmaps/areamap/tree/main/tabular-map.js>tabular-map.js</a> for <a href=https://github.com/tabularmaps/hq>カラム地図</a><br>
+APP: <a href=https://github.com/codeforkosen/kosen-opendata/>src on GitHub</a><br>
+
+<style>
+body {
+  text-align: center;
+}
+.checked {
+  background-color: green;
+  color: white;
+}
+tabular-map span {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3em;
+}
+tabular-map {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  margin: .5em 0;
+}
+csv-viewer > div {
+  height: 30vh;
+  overflow: scroll;
+}
+csv-viewer table tr:first-child th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+textarea {
+  width: 100%;
+  height: 20em;
+}
+</style>
+</body>
+</html>

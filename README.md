@@ -31,6 +31,7 @@
 - [CSV オープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.csv)
 - [JSON オープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.json)
 - [CBOR オープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.cbor)
+- [高専カラム地図 オープンデータ](https://codeforkosen.github.io/kosen-opendata/data/kosen_campus.tabularmap.tsv) [kosen_campus.tabularmap.tsv](data/kosen_campus.tabularmap.tsv) [APP](https://codeforkosen.github.io/kosen-opendata/sample/campus_tabularmap.html)
 - [GitHub](https://github.com/codeforkosen/kosen-opendata/blob/main/data/kosen_campus.csv)
 - 出展: [文部科学省 学校コード](https://www.mext.go.jp/b_menu/toukei/mext_01087.html)
 
