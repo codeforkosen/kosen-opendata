@@ -781,8 +781,8 @@
   },
   {
     "name": "国際高等専門学校 金沢キャンパス",
-    "shortname": "国際",
-    "shortname2": "国際",
+    "shortname": "国際（金沢）",
+    "shortname2": "金沢",
     "owner": "金沢工業大学",
     "type": "私立",
     "pref": "石川県",
@@ -794,8 +794,8 @@
   },
   {
     "name": "国際高等専門学校 白山キャンパス",
-    "shortname": "国際",
-    "shortname2": "国際",
+    "shortname": "国際（白山）",
+    "shortname2": "白山",
     "owner": "金沢工業大学",
     "type": "私立",
     "pref": "石川県",
