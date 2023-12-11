@@ -11,5 +11,18 @@
 <csv-viewer src=../data/kosen_campus.csv></csv-viewer>
 
 <div><a href=https://github.com/codeforkosen/kosen-opendata/>data and src on GitHub</a></div>
+
+<style>
+csv-viewer > div {
+  height: 30vh;
+  overflow: scroll;
+}
+csv-viewer table tr:first-child th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+</style>
 </body>
 </html>
