@@ -10,6 +10,8 @@
 
 <script type="module">
 import { CSV } from "https://js.sabae.cc/CSV.js";
+import { Base2 } from "https://code4fukui.github.io/Base2/Base2.js";
+import { Base16 } from "https://code4fukui.github.io/Base16/Base16.js";
 
 const data = await CSV.fetchJSON("../data/kosen_campus.csv");
 
@@ -18,13 +20,13 @@ tmap.onclick = (c) => {
   c.srcElement.classList.toggle("checked");
   const item = data.find(i => i.shortname2 == name);
   takosen.value = JSON.stringify(item, null, 2);
-  location.hash = Array.from(c.srcElement.parentElement.childNodes).map(i => i.classList.contains("checked") ? "1" : "0").join("");
+  location.hash = Base16.encode(Base2.decode(Array.from(c.srcElement.parentElement.childNodes).map(i => i.classList.contains("checked") ? "1" : "0").join("")));
 };
 
 const hash = location.hash.substring(1);
 if (hash) {
   const c = tmap.childNodes[0];
-  hash.split("").forEach((v, idx) => {
+  Base2.encode(Base16.decode(hash)).split("").forEach((v, idx) => {
     if (v == "1") c.childNodes[idx].classList.add("checked");
   });
 };
