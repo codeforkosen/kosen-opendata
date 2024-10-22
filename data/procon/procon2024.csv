@@ -1,49 +1,49 @@
-﻿num,type,year,id,kosen,title,
-1,課題,2024,10005,香川(詫間),ラビビ ー Rubbish navigation ー,
-2,課題,2024,10001,舞鶴,SDCs ー 100年続くまちづくり ー,
-3,課題,2024,10012,沖縄,SEA-VIS ー 水中ドローンとAIによる調査システム ー,
-4,課題,2024,10015,宇部,クラスdeECOウォッチ ー 環境教育支援システム ー,
-5,課題,2024,10009,国際,だすぽす ー 農家と家庭をつなげる堆肥共有プラットフォーム,
-6,課題,2024,10002,舞鶴,Noverflow ー 「ポイ捨て」を取り除く ー,
-7,課題,2024,10025,神山,まもるん ー 役場と町民の災害時連携アプリケーション ー,
-8,課題,2024,10013,弓削商船,りょーメシ ー 持続可能な寮食支援システム,
-9,課題,2024,10081,タイ高専,EcoMeow,
-10,課題,2024,10083,モンゴルコーセン,Smart faucet,
-11,課題,2024,10082,タイ高専,Share CARe,
-12,課題,2024,10018,仙台(広瀬),地賛地頌 ー 詠もうぜ地元！君の言葉で ー,
-13,課題,2024,10035,阿南,節電だョ!全員集合－節電の実践と情報提供で意識を高めるシステム－,
-14,課題,2024,10011,鳥羽商船,Triplean ー インバウンド対応・清掃支援システム ー,
-15,課題,2024,10006,大島商船,オトセパ ー 音によるゴミ分別システム ー,
-16,課題,2024,10004,小山,Excess Informer ー 買い過ぎ防止システム ー,
-17,課題,2024,10008,大島商船,プラたべる,
-18,課題,2024,10020,鳥羽商船,TerraMeal,
-19,課題,2024,10029,奈良,アルCO ー 地球を守る、優しいアプリ ー,
-20,課題,2024,10021,熊本（八代）,金継ぎVR,
-21,課題,2024,10033,松江,バイオ炭治郎 ー 炭素貯蓄編 ー,
-22,課題,2024,10024,熊本（八代）,育てるエコタウン ー 誰でも楽しく環境活動 ー,
-23,課題,2024,10036,阿南,POOI ー デジタル投票式ゴミ箱 ー,
-1,自由,2024,20022,弓削,！ ー the world of billiards ー,
-2,自由,2024,20032,小山,Don't Asleep,
-3,自由,2024,20040,木更津,Secure Ryman ー 情報セキュリティ対策推進サービス ー,
-4,自由,2024,20038,東京,つくも遊歩 ー つくも神と巡るこころの故郷 ー,
-5,自由,2024,20001,香川（詫間）,uni,
-6,自由,2024,20019,八戸,AIデンティファイ ー 安全で楽しいSNSライフをあなたに ー,
-7,自由,2024,20026,沖縄,PeerReach ー 仲間との協力でトップへ到達 ー,
-8,自由,2024,20051,佐世保,Tourwith ー パンダには旅をさせよー,
-9,自由,2024,20033,豊田,ふたりんごと ー どうやってこの感じ伝えようかな ー,
-10,自由,2024,20048,仙台（広瀬）,覚え歌つくるくん,
-11,自由,2024,20028,群馬,こねくと(仮) ー 災害用スマホネットワーク ー,
-12,自由,2024,20050,富山（本郷）,SPORTSDAY ー 球技大会管理プラットフォーム ー,
-13,自由,2024,20041,富山（射水）,なまっtalk ー テキストでだって方言を ー,
-14,自由,2024,20014,福井,エモアンプ,
-15,自由,2024,20058,沖縄,シオサビン ー 塩害を検知、予報し 被害を未然に防ぐ塩害対策アプリ ー,
-16,自由,2024,20035,香川（高松）,フィッシュフレンズ ー 魚をより近い存在に ー,
-17,自由,2024,20053,広島商船,Regina ー 自動学習精算機 ー,
-18,自由,2024,20042,石川,どみとる ー 学生寮共用設備利用状態管理システム ー,
-19,自由,2024,20027,群馬,Nahlun ー ボクセルで見える！河川水位と地域の安全 ー,
-20,自由,2024,20015,徳山,この虫な～んだ？ ー ハンドサインで虫がわかる！！,
-21,自由,2024,20081,キングモンクット工科大学,30 Days Harvest,
-22,自由,2024,20083,キングモンクット工科大学,AfterDay Horizon,
-23,自由,2024,20084,シンガポールポリテクニック,Neko Torae,
-24,自由,2024,20082,新モンゴル高専,QuizRush,
-25,自由,2024,20086,タイ高専,Sign-lent,
+num,type,year,id,kosen,title,poster
+1,課題,2024,10005,香川(詫間),ラビビ ー Rubbish navigation ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0019.png
+2,課題,2024,10001,舞鶴,SDCs ー 100年続くまちづくり ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0020.png
+3,課題,2024,10012,沖縄,SEA-VIS ー 水中ドローンとAIによる調査システム ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0021.png
+4,課題,2024,10015,宇部,クラスdeECOウォッチ ー 環境教育支援システム ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0022.png
+5,課題,2024,10009,国際,だすぽす ー 農家と家庭をつなげる堆肥共有プラットフォーム,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0023.png
+6,課題,2024,10002,舞鶴,Noverflow ー 「ポイ捨て」を取り除く ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0024.png
+7,課題,2024,10025,神山,まもるん ー 役場と町民の災害時連携アプリケーション ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0025.png
+8,課題,2024,10013,弓削商船,りょーメシ ー 持続可能な寮食支援システム,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0026.png
+9,課題,2024,10081,タイ高専,EcoMeow,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0027.png
+10,課題,2024,10083,モンゴルコーセン,Smart faucet,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0028.png
+11,課題,2024,10082,タイ高専,Share CARe,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0029.png
+12,課題,2024,10018,仙台(広瀬),地賛地頌 ー 詠もうぜ地元！君の言葉で ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0030.png
+13,課題,2024,10035,阿南,節電だョ!全員集合－節電の実践と情報提供で意識を高めるシステム－,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0031.png
+14,課題,2024,10011,鳥羽商船,Triplean ー インバウンド対応・清掃支援システム ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0032.png
+15,課題,2024,10006,大島商船,オトセパ ー 音によるゴミ分別システム ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0033.png
+16,課題,2024,10004,小山,Excess Informer ー 買い過ぎ防止システム ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0034.png
+17,課題,2024,10008,大島商船,プラたべる,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0035.png
+18,課題,2024,10020,鳥羽商船,TerraMeal,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0036.png
+19,課題,2024,10029,奈良,アルCO ー 地球を守る、優しいアプリ ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0037.png
+20,課題,2024,10021,熊本（八代）,金継ぎVR,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0038.png
+21,課題,2024,10033,松江,バイオ炭治郎 ー 炭素貯蓄編 ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0039.png
+22,課題,2024,10024,熊本（八代）,育てるエコタウン ー 誰でも楽しく環境活動 ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0040.png
+23,課題,2024,10036,阿南,POOI ー デジタル投票式ゴミ箱 ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0041.png
+1,自由,2024,20022,弓削,！ ー the world of billiards ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0045.png
+2,自由,2024,20032,小山,Don't Asleep,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0046.png
+3,自由,2024,20040,木更津,Secure Ryman ー 情報セキュリティ対策推進サービス ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0047.png
+4,自由,2024,20038,東京,つくも遊歩 ー つくも神と巡るこころの故郷 ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0048.png
+5,自由,2024,20001,香川（詫間）,uni,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0049.png
+6,自由,2024,20019,八戸,AIデンティファイ ー 安全で楽しいSNSライフをあなたに ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0050.png
+7,自由,2024,20026,沖縄,PeerReach ー 仲間との協力でトップへ到達 ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0051.png
+8,自由,2024,20051,佐世保,Tourwith ー パンダには旅をさせよー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0052.png
+9,自由,2024,20033,豊田,ふたりんごと ー どうやってこの感じ伝えようかな ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0053.png
+10,自由,2024,20048,仙台（広瀬）,覚え歌つくるくん,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0054.png
+11,自由,2024,20028,群馬,こねくと(仮) ー 災害用スマホネットワーク ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0055.png
+12,自由,2024,20050,富山（本郷）,SPORTSDAY ー 球技大会管理プラットフォーム ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0056.png
+13,自由,2024,20041,富山（射水）,なまっtalk ー テキストでだって方言を ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0057.png
+14,自由,2024,20014,福井,エモアンプ,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0058.png
+15,自由,2024,20058,沖縄,シオサビン ー 塩害を検知、予報し 被害を未然に防ぐ塩害対策アプリ ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0059.png
+16,自由,2024,20035,香川（高松）,フィッシュフレンズ ー 魚をより近い存在に ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0060.png
+17,自由,2024,20053,広島商船,Regina ー 自動学習精算機 ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0061.png
+18,自由,2024,20042,石川,どみとる ー 学生寮共用設備利用状態管理システム ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0062.png
+19,自由,2024,20027,群馬,Nahlun ー ボクセルで見える！河川水位と地域の安全 ー,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0063.png
+20,自由,2024,20015,徳山,この虫な～んだ？ ー ハンドサインで虫がわかる！！,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0064.png
+21,自由,2024,20081,キングモンクット工科大学,30 Days Harvest,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0065.png
+22,自由,2024,20083,キングモンクット工科大学,AfterDay Horizon,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0066.png
+23,自由,2024,20084,シンガポールポリテクニック,Neko Torae,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0067.png
+24,自由,2024,20082,新モンゴル高専,QuizRush,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0068.png
+25,自由,2024,20086,タイ高専,Sign-lent,https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024/0069.png
