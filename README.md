@@ -42,6 +42,10 @@
 - [CSV #procon34 2023](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2023.csv) (出展、<a href=https://www.procon.gr.jp/>高専プロコン</a> パンフレット原稿より) [企業賞 2023](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2023_prize.csv) (出典、<a href=https://twitter.com/vista_mac/status/1713463238485299339>@vista_mac</a>)
 - [CSV #procon35 2024](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024.csv)、[吊り下げ名札色一覧](https://codeforkosen.github.io/kosen-opendata/data/procon/procon2024_namecard.csv) (出展、<a href=https://www.procon.gr.jp/>高専プロコン</a>、高専プロコンパンフレット)
 
+## 高専DCONオープンデータ(非公式）
+
+- [高専DCONオープンデータ](https://github.com/codeforkosen/dcon-opendata/)
+
 ## 高専カリキュラムオープンデータ(非公式)
 
 - 福井高専カリキュラム 電子情報工学科
